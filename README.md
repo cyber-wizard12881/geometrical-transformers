@@ -72,6 +72,32 @@ The model returns logits with shape `(batch_size, target_length, target_vocab_si
 | [`geometry_test_sentences.csv`](./geometry_test_sentences.csv) | Small set of examples used by the test script. |
 | `*_transformer.pt` | Saved PyTorch weights, when generated locally. These files are ignored by Git and are not required to understand the source. |
 
+## Quick start (PowerShell)
+
+Run these commands from the repository root in PowerShell.
+
+### Train models and evaluate them
+
+```powershell
+.\run.ps1
+```
+
+This script creates the `.venv` virtual environment, activates it for the script, installs the packages in `requirements.txt`, then runs `trainer.py` followed by `tester.py`. Training saves the model checkpoints that the tester needs. The first run may need network access to download the BERT tokenizer.
+
+### Open the Jupyter notebook
+
+The notebook launcher uses JupyterLab, which is not included in `requirements.txt`. Install it into the project virtual environment once, activate that environment in the current PowerShell session, then start the notebook:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r .\requirements.txt
+python -m pip install jupyterlab ipykernel
+.\run_notebook.ps1
+```
+
+The launcher opens `geometrical_transformers.ipynb` in JupyterLab. Keep the virtual environment activated while JupyterLab is running so the notebook can use the project's installed packages. If `.venv` is already set up, skip the `python -m venv .venv` command.
+
 ## Install and run
 
 Use Python with the packages listed in [`requirements.txt`](./requirements.txt). From the repository root:

@@ -127,3 +127,17 @@ There are important limits to interpreting the reported result:
 - Inspect `map_2_geometry` to see how a geometry name selects an implementation.
 - Adapt the data, masks, and training objective to a concrete task before interpreting performance.
 - If adding a new embedding transform, implement it as a PyTorch module and register it in `geomapper.py`.
+
+## Gallery
+
+* Trainer Stage
+![001](001.png)
+* Testing Stage
+![002](002.png)
+* Jupyter Lab Notebook Execution
+![003](003.png)
+
+That's It!!! <br/>
+Happy Exploring!!! <br/>
+Cheers!!! <br/>
+:-)

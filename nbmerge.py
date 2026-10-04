@@ -1,9 +1,9 @@
-# jupytext --to notebook --output geometrical_transformers.ipynb *.py
+# jupytext --to notebook *.py
 
 import json
 
 # List the notebooks you want to combine in order
-notebooks_to_merge = []
+notebooks_to_merge = ['geo_generator.ipynb', 'hyperbolic.ipynb', 'spherical.ipynb', 'logexp.ipynb', 'parabolic.ipynb', 'geomapper.ipynb', 'transformer.ipynb', 'trainer.ipynb', 'tester.ipynb']
 
 # Use the first notebook as a template to preserve metadata
 with open(notebooks_to_merge[0], 'r', encoding='utf-8') as f:
@@ -16,7 +16,7 @@ for notebook_path in notebooks_to_merge[1:]:
         merged_notebook['cells'].extend(current_notebook['cells'])
 
 # Save the combined content into a new file
-with open('lexicon_lucidus.ipynb', 'w', encoding='utf-8') as f:
+with open('geometrical_transformers.ipynb', 'w', encoding='utf-8') as f:
     json.dump(merged_notebook, f, indent=1, ensure_ascii=False)
 
-print("Notebooks merged successfully into 'lexicon_lucidus.ipynb'!")
+print("Notebooks merged successfully into 'geometrical_transformers.ipynb'!")

@@ -63,8 +63,10 @@ def train_model(
             f"No training label configured for geometry type {geometry_type!r}."
         )
 
+    print(f"\n🚀 Training {geometry_label} ({geometry_type})")
     dataset = GeometryDataset(csv_file, tokenizer, geometry_label)
     dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
+    print(f"📚 Examples: {len(dataset)} | Batches per epoch: {len(dataloader)}")
 
     model = GeometricTransformer(src_vocab_size=tokenizer.vocab_size, tgt_vocab_size=tokenizer.vocab_size, geometry_type=geometry_type)
     criterion = nn.CrossEntropyLoss(ignore_index=tokenizer.pad_token_id)
@@ -73,6 +75,7 @@ def train_model(
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
+    print(f"🖥️  Device: {device}")
 
     # -------------------------------
     # 4. Training Loop
@@ -106,7 +109,8 @@ def train_model(
             total_loss += loss.item()
 
         scheduler.step()
-        print(f"Epoch {epoch+1}/{epochs}, Loss: {total_loss/len(dataloader):.4f}")
+        average_loss = total_loss / len(dataloader)
+        print(f"📈 Epoch {epoch + 1:>2}/{epochs}  |  Loss: {average_loss:.4f}")
 
     return model
 
@@ -120,11 +124,18 @@ def train(train_model):
     exponential_model = train_model("geometry_sentences.csv", epochs=5, batch_size=16, lr=5e-5, geometry_type="exponential")
     parabolic_model = train_model("geometry_sentences.csv", epochs=5, batch_size=16, lr=5e-5, geometry_type="parabolic")
 
-    torch.save(euclidean_model.state_dict(), "euclidean_transformer.pt")
-    torch.save(hyperbolic_model.state_dict(), "hyperbolic_transformer.pt")
-    torch.save(spherical_model.state_dict(), "spherical_transformer.pt")
-    torch.save(exponential_model.state_dict(), "exponential_transformer.pt")
-    torch.save(parabolic_model.state_dict(), "parabolic_transformer.pt")
+    checkpoints = (
+        ("Euclidean", euclidean_model, "euclidean_transformer.pt"),
+        ("Hyperbolic", hyperbolic_model, "hyperbolic_transformer.pt"),
+        ("Elliptic", spherical_model, "spherical_transformer.pt"),
+        ("Exponential", exponential_model, "exponential_transformer.pt"),
+        ("Parabolic", parabolic_model, "parabolic_transformer.pt"),
+    )
+    print("\n💾 Saving trained model checkpoints")
+    for label, model, checkpoint_path in checkpoints:
+        torch.save(model.state_dict(), checkpoint_path)
+        print(f"   ✅ {label:<12} → {checkpoint_path}")
+    print("🎉 Training complete!")
 
     return euclidean_model, hyperbolic_model, spherical_model, exponential_model, parabolic_model
 

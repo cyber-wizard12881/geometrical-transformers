@@ -2,3 +2,5 @@ torch
 numpy
 pandas
 transformers
+jupytext
+jupyterlab

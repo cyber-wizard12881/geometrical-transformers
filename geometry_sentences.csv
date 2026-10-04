@@ -1,0 +1,201 @@
+id,geometry_type,sentence
+1,Euclidean,The cat sat on the mat 1.
+2,Euclidean,The cat sat on the mat 2.
+3,Euclidean,The cat sat on the mat 3.
+4,Euclidean,The child is reading a book 1.
+5,Euclidean,The child is reading a book 2.
+6,Euclidean,The child is reading a book 3.
+7,Euclidean,The car is parked outside 1.
+8,Euclidean,The car is parked outside 2.
+9,Euclidean,The car is parked outside 3.
+10,Euclidean,She wrote a letter to her friend 1.
+11,Euclidean,She wrote a letter to her friend 2.
+12,Euclidean,She wrote a letter to her friend 3.
+13,Euclidean,The teacher explained the lesson 1.
+14,Euclidean,The teacher explained the lesson 2.
+15,Euclidean,The teacher explained the lesson 3.
+16,Euclidean,The dog barked loudly at night 1.
+17,Euclidean,The dog barked loudly at night 2.
+18,Euclidean,The dog barked loudly at night 3.
+19,Euclidean,The sun rises in the east 1.
+20,Euclidean,The sun rises in the east 2.
+21,Euclidean,The sun rises in the east 3.
+22,Euclidean,He opened the window to let in air 1.
+23,Euclidean,He opened the window to let in air 2.
+24,Euclidean,He opened the window to let in air 3.
+25,Euclidean,The train arrived at the station 1.
+26,Euclidean,The train arrived at the station 2.
+27,Euclidean,The train arrived at the station 3.
+28,Euclidean,They played football in the field 1.
+29,Euclidean,They played football in the field 2.
+30,Euclidean,They played football in the field 3.
+31,Euclidean,He wrote a fabulous book 1.
+32,Euclidean,He wrote a fabulous book 2.
+33,Euclidean,He wrote a fabulous book 3.
+34,Euclidean,He painted a beautiful picture 1.
+35,Euclidean,He painted a beautiful picture 2.
+36,Euclidean,He painted a beautiful picture 3.
+37,Euclidean,She danced very well 1.
+38,Euclidean,She danced very well 2.
+39,Euclidean,She danced very well 3.
+40,Euclidean,She danced very well 4.
+41,Hyperbolic,A dog is a type of mammal 1.
+42,Hyperbolic,A rose is a type of flower 2.
+43,Hyperbolic,A sparrow is a type of bird 3.
+44,Hyperbolic,A oak is a type of tree 4.
+45,Hyperbolic,A whale is a type of mammal 5.
+46,Hyperbolic,A carrot is a type of vegetable 6.
+47,Hyperbolic,A python is a type of snake 7.
+48,Hyperbolic,A lion is a type of animal 8.
+49,Hyperbolic,A tulip is a type of plant 9.
+50,Hyperbolic,A eagle is a type of bird 10.
+51,Hyperbolic,A dog is a type of mammal 11.
+52,Hyperbolic,A rose is a type of flower 12.
+53,Hyperbolic,A sparrow is a type of bird 13.
+54,Hyperbolic,A oak is a type of tree 14.
+55,Hyperbolic,A whale is a type of mammal 15.
+56,Hyperbolic,A carrot is a type of vegetable 16.
+57,Hyperbolic,A python is a type of snake 17.
+58,Hyperbolic,A lion is a type of animal 18.
+59,Hyperbolic,A tulip is a type of plant 19.
+60,Hyperbolic,A eagle is a type of bird 20.
+61,Hyperbolic,A dog is a type of mammal 21.
+62,Hyperbolic,A rose is a type of flower 22.
+63,Hyperbolic,A sparrow is a type of bird 23.
+64,Hyperbolic,A oak is a type of tree 24.
+65,Hyperbolic,A whale is a type of mammal 25.
+66,Hyperbolic,A carrot is a type of vegetable 26.
+67,Hyperbolic,A python is a type of snake 27.
+68,Hyperbolic,A lion is a type of animal 28.
+69,Hyperbolic,A tulip is a type of plant 29.
+70,Hyperbolic,A eagle is a type of bird 30.
+71,Hyperbolic,A dog is a type of mammal 31.
+72,Hyperbolic,A rose is a type of flower 32.
+73,Hyperbolic,A sparrow is a type of bird 33.
+74,Hyperbolic,A oak is a type of tree 34.
+75,Hyperbolic,A whale is a type of mammal 35.
+76,Hyperbolic,A carrot is a type of vegetable 36.
+77,Hyperbolic,A python is a type of snake 37.
+78,Hyperbolic,A lion is a type of animal 38.
+79,Hyperbolic,A tulip is a type of plant 39.
+80,Hyperbolic,A eagle is a type of bird 40.
+81,Elliptic,The Earth orbit repeats every year 1.
+82,Elliptic,The moon cycle repeats every month 2.
+83,Elliptic,The clock strike repeats every day 3.
+84,Elliptic,The season change repeats every year 4.
+85,Elliptic,The tide rise repeats every day 5.
+86,Elliptic,The Earth orbit repeats every year 6.
+87,Elliptic,The moon cycle repeats every month 7.
+88,Elliptic,The clock strike repeats every day 8.
+89,Elliptic,The season change repeats every year 9.
+90,Elliptic,The tide rise repeats every day 10.
+91,Elliptic,The Earth orbit repeats every year 11.
+92,Elliptic,The moon cycle repeats every month 12.
+93,Elliptic,The clock strike repeats every day 13.
+94,Elliptic,The season change repeats every year 14.
+95,Elliptic,The tide rise repeats every day 15.
+96,Elliptic,The Earth orbit repeats every year 16.
+97,Elliptic,The moon cycle repeats every month 17.
+98,Elliptic,The clock strike repeats every day 18.
+99,Elliptic,The season change repeats every year 19.
+100,Elliptic,The tide rise repeats every day 20.
+101,Elliptic,The Earth orbit repeats every year 21.
+102,Elliptic,The moon cycle repeats every month 22.
+103,Elliptic,The clock strike repeats every day 23.
+104,Elliptic,The season change repeats every year 24.
+105,Elliptic,The tide rise repeats every day 25.
+106,Elliptic,The Earth orbit repeats every year 26.
+107,Elliptic,The moon cycle repeats every month 27.
+108,Elliptic,The clock strike repeats every day 28.
+109,Elliptic,The season change repeats every year 29.
+110,Elliptic,The tide rise repeats every day 30.
+111,Elliptic,The Earth orbit repeats every year 31.
+112,Elliptic,The moon cycle repeats every month 32.
+113,Elliptic,The clock strike repeats every day 33.
+114,Elliptic,The season change repeats every year 34.
+115,Elliptic,The tide rise repeats every day 35.
+116,Elliptic,The Earth orbit repeats every year 36.
+117,Elliptic,The moon cycle repeats every month 37.
+118,Elliptic,The clock strike repeats every day 38.
+119,Elliptic,The season change repeats every year 39.
+120,Elliptic,The tide rise repeats every day 40.
+121,Exponential,The population doubled every year 1.
+122,Exponential,The rumor doubled every day 2.
+123,Exponential,The virus doubled every hour 3.
+124,Exponential,The company doubled every quarter 4.
+125,Exponential,The forest fire doubled every week 5.
+126,Exponential,The network doubled every month 6.
+127,Exponential,The trend doubled every day 7.
+128,Exponential,The technology doubled every year 8.
+129,Exponential,The investment doubled every month 9.
+130,Exponential,The audience doubled every week 10.
+131,Exponential,The population doubled every year 11.
+132,Exponential,The rumor doubled every day 12.
+133,Exponential,The virus doubled every hour 13.
+134,Exponential,The company doubled every quarter 14.
+135,Exponential,The forest fire doubled every week 15.
+136,Exponential,The network doubled every month 16.
+137,Exponential,The trend doubled every day 17.
+138,Exponential,The technology doubled every year 18.
+139,Exponential,The investment doubled every month 19.
+140,Exponential,The audience doubled every week 20.
+141,Exponential,The fire spread faster than ever 1.
+142,Exponential,The rumor spread faster than fire 2.
+143,Exponential,The virus spread faster everywhere 3.
+144,Exponential,The company's growth spread faster every quarter 4.
+145,Exponential,The forest fire spread faster than ever before 5.
+146,Exponential,The network's growth spread faster every month 6.
+147,Exponential,The trend spread faster everyday 7.
+148,Exponential,The technology's advancement spread faster every year 8.
+149,Exponential,The investment in stocks spread faster every year 9.
+150,Exponential,The attrition spread faster every month 10.
+151,Exponential,The fire spread faster than ever 11.
+152,Exponential,The rumor spread faster than fire 12.
+153,Exponential,The virus spread faster everywhere 13.
+154,Exponential,The company's growth spread faster every quarter 14.
+155,Exponential,The forest fire spread faster than ever before 15.
+156,Exponential,The network's growth spread faster every month 16.
+157,Exponential,The trend spread faster everyday 17.
+158,Exponential,The technology's advancement spread faster every year 18.
+159,Exponential,The investment in stocks spread faster every year 19.
+160,Exponential,The attrition spread faster every month 20.
+161,Parabolic,The ball soared high and then fell back down 1.
+162,Parabolic,The rocket soared high and then fell back down 2.
+163,Parabolic,The fountain soared high and then fell back down 3.
+164,Parabolic,The athlete soared high and then fell back down 4.
+165,Parabolic,The arrow soared high and then fell back down 5.
+166,Parabolic,The stone soared high and then fell back down 6.
+167,Parabolic,The projectile soared high and then fell back down 7.
+168,Parabolic,The kite soared high and then fell back down 8.
+169,Parabolic,The drone soared high and then fell back down 9.
+170,Parabolic,The water jet soared high and then fell back down 10.
+171,Parabolic,The ball soared high and then fell back down 11.
+172,Parabolic,The rocket soared high and then fell back down 12.
+173,Parabolic,The fountain soared high and then fell back down 13.
+174,Parabolic,The athlete soared high and then fell back down 14.
+175,Parabolic,The arrow soared high and then fell back down 15.
+176,Parabolic,The stone soared high and then fell back down 16.
+177,Parabolic,The projectile soared high and then fell back down 17.
+178,Parabolic,The kite soared high and then fell back down 18.
+179,Parabolic,The drone soared high and then fell back down 19.
+180,Parabolic,The water jet soared high and then fell back down 20.
+181,Parabolic,The Person's career peaked and then declined 1.
+182,Parabolic,The Person's success peaked and then declined 2.
+183,Parabolic,The Person's failure peaked and then declined 3.
+184,Parabolic,The Person's output peaked and then declined 4.
+185,Parabolic,The Person's performance peaked and then declined 5.
+186,Parabolic,The Person's life peaked and then declined 6.
+187,Parabolic,The Person's project peaked and then declined 7.
+188,Parabolic,The Person's income peaked and then declined 8.
+189,Parabolic,The Person's career peaked and then declined 9.
+190,Parabolic,The Person's success peaked and then declined 10.
+191,Parabolic,The Person's failure peaked and then declined 11.
+192,Parabolic,The Person's output peaked and then declined 12.
+193,Parabolic,The Person's performance peaked and then declined 13.
+194,Parabolic,The Person's life peaked and then declined 14.
+195,Parabolic,The Person's project peaked and then declined 15.
+196,Parabolic,The Person's income peaked and then declined 16.
+197,Parabolic,"The craze for pop music rose, declined and then died out 1."
+198,Parabolic,"The craze for going abroad for studies rose, declined and then died out 2."
+199,Parabolic,"The craze for pop music rose, declined and then died out 3."
+200,Parabolic,"The craze for going abroad for studies rose, declined and then died out 4."

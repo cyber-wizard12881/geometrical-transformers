@@ -1,0 +1,31 @@
+id,geometry_type,sentence
+201,Euclidean,"The lamp is on the desk."
+202,Euclidean,"She opened the door quietly."
+203,Euclidean,"The child painted a picture."
+204,Euclidean,"The bus stopped at the corner."
+205,Euclidean,"He placed the keys on the shelf."
+
+206,Hyperbolic,"A robin is a kind of bird."
+207,Hyperbolic,"Cities belong to regions, and regions to countries."
+208,Hyperbolic,"A triangle is a type of polygon."
+209,Hyperbolic,"Insects include ants, bees, and butterflies."
+210,Hyperbolic,"A violin is part of the family of string instruments."
+
+211,Elliptic,"The calendar resets every January."
+212,Elliptic,"The Ferris wheel completes a rotation in minutes."
+213,Elliptic,"The sun rises and sets each day."
+214,Elliptic,"The pendulum swings back and forth endlessly."
+215,Elliptic,"The festival returns every spring."
+
+216,Exponential,"The startup’s users tripled in a month."
+217,Exponential,"The wildfire spread at an accelerating pace."
+218,Exponential,"The bacteria multiplied rapidly in the lab dish."
+219,Exponential,"The video went viral overnight."
+220,Exponential,"The investment grew exponentially over five years."
+
+221,Parabolic,"The gymnast’s leap traced a curved arc."
+222,Parabolic,"The water from the hose sprayed in a parabola."
+223,Parabolic,"The cannonball rose high before falling back down."
+224,Parabolic,"The skier’s jump peaked and descended."
+225,Parabolic,"The fireworks shot upward and curved back down."
+226,Parabolic, "The Earth orbits the Sun every year."
